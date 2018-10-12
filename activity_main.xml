@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:gravity="center"
+    android:paddingLeft="@dimen/app_small_margin"
+    android:paddingRight="@dimen/app_small_margin"
+    tools:context=".MainActivity"
+    android:background="@color/appColorBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/font_size_large"
+        android:layout_weight="1"
+        android:text="@string/app_unique"
+        android:fontFamily="casual"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btSearch"
+            style="@style/ButtonSearch"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btSettings"
+            style="@style/ButtonSettings"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:layout_weight="1"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btProfile"
+            style="@style/ButtonStyleHome"
+            android:text="@string/bt_profile" />
+        <Button
+            android:id="@+id/btTopReview"
+            style="@style/ButtonStyleHome"
+            android:text="@string/bt_topReviews"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+       style="@style/LinearLayoutStyle"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btPlanAtrip"
+            style="@style/ButtonStyleHome"
+            android:text="@string/bt_planAtrip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    style="@style/LinearLayoutStyle"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btViewTrips"
+            style="@style/ButtonStyleHome"
+            android:text="@string/bt_viewTrips"/>
+        <Button
+            android:id="@+id/btReviewsFeedback"
+            style="@style/ButtonStyleHome"
+            android:text="@string/bt_reviewsFeedback"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
