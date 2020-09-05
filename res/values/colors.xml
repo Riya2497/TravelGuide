@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C71585</color>
+    <color name="colorPrimaryDark">#4B0082</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="appColorBackground">#FAFAFA</color>
+    <color name="appColorWhite">#FFFFFF</color>
+    <color name="colorFacebook">#0000ff</color>
+    <color name="colorGoogle">#ff0000</color>
+    <color name="colorProfile">@color/colorPrimary</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="Dots_active">#D462ff</color>
+    <color name="colorSignUp">#1E90FF</color>
+    <color name="separatorColor">#696969</color>
+    <color name="black">#000000</color>
+</resources>
