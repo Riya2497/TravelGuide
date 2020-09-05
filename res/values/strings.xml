@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Streety</string>
+
+    <string name="facebook_app_id">2263202180411032</string>
+    <string name="fb_login_protocol_scheme">fb2263202180411032</string>
+
+    <!-- Login -->
+    <string name="bt_login">GO!</string>
+    <string name="bt_fbLogin">FACEBOOK</string>
+    <string name="bt_googleLogin">GOOGLE</string>
+    <string name="tv_forgotPwd"> Forgot Password?</string>
+    <string name="tv_newAccount">Create New Account</string>
+
+    <!-- Register -->
+    <string name="create_acc">Create new account</string>
+    <string name="tv_name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="et_pwd">Password</string>
+    <string name="et_confirm_pwd">Confirm Password</string>
+    <string name="bt_signup">SIGN-UP</string>
+
+    <!--Forgot Password -->
+    <string name="et_newPwd">New Password</string>
+    <string name="bt_confirm">CONFIRM</string>
+
+
+    <!--Profile-->
+    <string name="tv_profile">Profile</string>
+    <string name="bt_edit">Edit</string>
+    <string name="tv_username">Username</string>
+    <string name="tv_count">00</string>
+    <string name="tv_tripsmade">Trips Made</string>
+
+    <!--Profile Actionbar-->
+    <string name="ab_change_password">Change Password</string>
+    <string name="ab_change_uName">Change UserName</string>
+
+    <!--Dot Slider -->
+    <string name="ds_previous">PREVIOUS</string>
+    <string name="ds_next">NEXT</string>
+
+    <!-- Home -->
+    <string name="bt_search">SEARCH</string>
+    <string name="bt_settings">SETTINGS</string>
+    <string name="bt_profile">PROFILE</string>
+    <string name="bt_topReviews">TOP REVIEWS</string>
+    <string name="bt_planAtrip">Plan a trip</string>
+    <string name="bt_viewTrips">View trips</string>
+    <string name="bt_reviewsFeedback">REVIEWS AND FEEDBACK</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bt_places">Places</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Plan-A-Trip-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_duration">Enter Duration</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_location">Enter Starting Location</string>
+    <string name="tv_loc_header">Get Set Go</string>
+    <string name="bt_view_trips">View Trips</string>
+    <string name="please_wait_">Please wait...</string>
+
+    <!--Validation-->
+    <string name="error_name">Enter name</string>
+    <string name="error_email">Enter Email ID</string>
+    <string name="error_pwd">Enter Password</string>
+    <string name="error_confirmPwd">Enter Same Password Again</string>
+    <string name="error_location">Enter a location</string>
+    <string name="error_duration">Enter duration which is greater than 2 hours</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+</resources>
