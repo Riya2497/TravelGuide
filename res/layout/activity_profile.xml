@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    >
+
+  <!--  <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/btSignOut"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="325dp"
+        style="@style/ButtonStyle.SignUp"
+        android:background="@drawable/ic_power_settings_new_white_24dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp">
+
+
+        <TextView
+            android:id="@+id/tvProfile"
+            style="@style/TextViewStyle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/bt_profile"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_small_size" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cvImage"
+            android:layout_width="150dp"
+            android:layout_height="146dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/profile_icon"
+          />
+        <!--  android:src="@drawable/riya"
+            tools:src="@drawable/profile_icon" -->
+
+        <Button
+            android:id="@+id/btEdit"
+            android:layout_width="66dp"
+            android:layout_height="69dp"
+            android:layout_alignBottom="@id/cvImage"
+            android:layout_alignParentEnd="true"
+            android:layout_alignRight="@+id/cvImage"
+            android:layout_marginBottom="-21dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="-6dp"
+            android:background="@drawable/editprofile"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            style="@style/TextViewStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/tv_username"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_small_size"
+            tools:text="@tools:sample/first_names" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/app_medium_margin"
+        android:paddingRight="@dimen/app_medium_margin">
+
+
+
+        <TextView
+            android:id="@+id/tvCount"
+            style="@style/TextViewStyle"
+            android:text="@string/tv_count"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/text_large_size"/>
+        <TextView
+            android:id="@+id/tvTripsmade"
+            style="@style/TextViewStyle"
+            android:text="@string/tv_tripsmade"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/text_small_size"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

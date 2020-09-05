@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColorBackground"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/app_tiny_margin"
+    android:paddingRight="@dimen/app_tiny_margin"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Theme.AppCompat">
+
+        <ImageView
+            android:id="@+id/titlelogo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo1" />
+
+
+        <Button
+            android:id="@+id/btProfile"
+            android:layout_marginTop="@dimen/app_medium_margin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/profile" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHomeStyle"
+        android:background="@drawable/rsz_pin">
+
+        <TextView
+            android:id="@+id/tvPlaces"
+            style="@style/HomeTextViewStyle"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:text="@string/bt_places"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHomeStyle"
+        android:background="@drawable/rsz_travel">
+
+        <TextView
+            android:id="@+id/tvPat"
+            style="@style/HomeTextViewStyle"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:text="@string/bt_planAtrip"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHomeStyle"
+        android:background="@drawable/rsz_female">
+        <TextView
+            android:id="@+id/tvTrips"
+            style="@style/HomeTextViewStyle"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:text="@string/bt_view_trips"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/bt_profile"
+        android:background="#8470FF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="#ff8c00"
+        android:orientation="vertical"
+        android:rotation="-100">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="679dp"
+        android:layout_marginTop="150dp"
+        android:background="#ffd700"
+        android:orientation="vertical"
+        android:rotation="-100"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="685dp"
+        android:layout_marginTop="300dp"
+        android:background="#483d8b"
+        android:orientation="vertical"
+        android:rotation="-100"></RelativeLayout>
+
+</FrameLayout>

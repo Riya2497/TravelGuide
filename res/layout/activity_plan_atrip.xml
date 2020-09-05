@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/airplane"
+    tools:context=".PlanATrip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:paddingTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="@string/tv_loc_header"
+            android:textSize="@dimen/text_medium_size" />
+
+
+
+        <Spinner
+            android:id="@+id/spLocation"
+            android:paddingTop="50dp"
+            android:textColor="#000000"
+            style="@style/EditTextStyle"
+            android:textSize="@dimen/text_tiny_size"
+            android:layout_marginTop="24dp"
+            android:hint="@string/enter_location"
+            android:paddingLeft="@dimen/dots_height"
+            android:textColorHint="@color/black"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/etDate"
+            style="@style/EditTextStyle"
+            android:layout_marginTop="24dp"
+            android:paddingTop="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="@string/enter_date"
+            android:textSize="@dimen/text_tiny_size"
+            android:paddingLeft="30dp"/>
+
+        <Button
+            android:id="@+id/bt_go"
+            style="@style/ButtonStyle.Primary"
+            android:layout_margin="40dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_tiny_size"
+            android:layout_marginTop="@dimen/app_large_margin"
+            android:text="@string/bt_login" />
+    </LinearLayout>
+</ScrollView>
